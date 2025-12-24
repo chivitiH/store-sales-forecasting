@@ -298,29 +298,8 @@ store-sales-forecasting/
 
 ---
 
-## 👨‍💻 Auteur
 
-**Yoni**
 
-- GitHub: [@YourUsername](https://github.com/YourUsername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-
----
-
-## 📄 License
-
-Ce projet est sous licence MIT - voir [LICENSE](LICENSE) pour plus de détails.
-
----
-
-## 🙏 Remerciements
-
-- [Kaggle](https://www.kaggle.com/) pour le dataset
-- [Corporación Favorita](https://www.corporacionfavorita.com/) pour les données
-- La communauté open-source ML/DL
-
----
 
 ## 📊 Statistiques du Projet
 
