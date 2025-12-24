@@ -18,7 +18,8 @@
 - [Utilisation](#utilisation)
 - [Structure du Projet](#structure-du-projet)
 - [Technologies](#technologies)
-- [Auteur](#auteur)
+- [Améliorations Futures](#améliorations-futures)
+- [Statistiques du Projet](#statistiques-du-projet)
 
 ---
 
@@ -32,11 +33,11 @@ Ce projet implémente un système de prédiction de ventes pour une chaîne de s
 - 🏪 **54 magasins** à travers l'Équateur
 - 📦 **33 familles** de produits
 - 🎯 **7.25% MAPE** - Performance du meilleur modèle
-- ⚡ **< 15 secondes** - Temps d'entraînement sur full dataset
+- ⚡ **< 3 secondes** - Temps d'entraînement sur full dataset
 
 ---
 
-## 📊 Dataset
+## �� Dataset
 
 **Source:** [Kaggle - Store Sales Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)
 
@@ -128,21 +129,22 @@ Raw Data → Cleaning → Feature Engineering → Model Training → Predictions
 | ARIMA(1,1,1) | 2319.41 | 2091.67 | 22.52% | - |
 | Last Value | 4967.69 | 4520.83 | 51.25% | - |
 
-
 ### 📈 Visualisations
 
 <p align="center">
   <img src="reports/figures/01_sales_over_time.png" width="45%" />
   <img src="reports/figures/12_all_models_comparison.png" width="45%" />
+</p>
 
 <p align="center">
   <img src="reports/figures/04_monthly_pattern.png" width="45%" />
   <img src="reports/figures/11_advanced_predictions.png" width="45%" />
+</p>
 
 ### 🎯 Insights Clés
 
 - **Saisonnalité forte** : Pics en décembre (Noël), creux en janvier
-- **Impact promotions** : +42.4% de performance avec features avancées
+- **Impact promotions** : +45.6% de performance avec features avancées
 - **Corrélation pétrole** : -0.705 (économie dépendante du pétrole)
 - **Amélioration baseline** : 45.6% par rapport à la régression linéaire
 
@@ -159,7 +161,7 @@ Raw Data → Cleaning → Feature Engineering → Model Training → Predictions
 ### Setup Environnement
 ```bash
 # Cloner le repository
-git clone https://github.com/YOUR_USERNAME/store-sales-forecasting.git
+git clone https://github.com/chivitiH/store-sales-forecasting.git
 cd store-sales-forecasting
 
 # Créer environnement virtuel
@@ -296,9 +298,6 @@ store-sales-forecasting/
 
 ---
 
-
-
-
 ## 📊 Statistiques du Projet
 
 - **Lignes de code** : ~2000+
@@ -308,6 +307,3 @@ store-sales-forecasting/
 - **Temps total dev** : ~8 heures
 - **Performance** : 7.25% MAPE ✅
 
----
-
-<p align="center">
