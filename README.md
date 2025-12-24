@@ -134,12 +134,10 @@ Raw Data → Cleaning → Feature Engineering → Model Training → Predictions
 <p align="center">
   <img src="reports/figures/01_sales_over_time.png" width="45%" />
   <img src="reports/figures/12_all_models_comparison.png" width="45%" />
-</p>
 
 <p align="center">
   <img src="reports/figures/04_monthly_pattern.png" width="45%" />
   <img src="reports/figures/11_advanced_predictions.png" width="45%" />
-</p>
 
 ### 🎯 Insights Clés
 
@@ -313,5 +311,3 @@ store-sales-forecasting/
 ---
 
 <p align="center">
-  Made with ❤️ and ☕
-</p>
