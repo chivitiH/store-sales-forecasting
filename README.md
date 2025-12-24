@@ -252,7 +252,7 @@ store-sales-forecasting/
 │   └── figures/               # 18 visualisations
 ├── app/
 │   └── streamlit_app.py       # Dashboard interactif
-├── notebooks/                 # Notebooks Jupyter (optionnel)
+
 ├── requirements.txt
 ├── README.md
 └── .gitignore
