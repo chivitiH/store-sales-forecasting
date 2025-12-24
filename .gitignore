@@ -1,0 +1,84 @@
+# ============================================
+# DATA FILES (trop gros pour Git)
+# ============================================
+data/raw/*.csv
+data/processed/*.csv
+data/predictions/*.csv
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/predictions/.gitkeep
+
+# ============================================
+# MODELS (trop gros pour Git)
+# ============================================
+models/*.pkl
+models/*.h5
+models/*.joblib
+models/tuned/*.pkl
+models/tuned_fixed/*.pkl
+models/tuned_subset/*.pkl
+
+# Keep directory structure
+!models/.gitkeep
+
+# ============================================
+# BENCHMARKS PERSONNELS (ne pas partager)
+# ============================================
+benchmark_intel*.py
+benchmark_intel*.csv
+
+# ============================================
+# SCRIPTS DE SETUP (temporaires)
+# ============================================
+*.sh
+!.gitkeep
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ============================================
+# JUPYTER
+# ============================================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ============================================
+# IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+*.log
+
+# ============================================
+# TESTS & COVERAGE
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============================================
+# STREAMLIT
+# ============================================
+.streamlit/secrets.toml
